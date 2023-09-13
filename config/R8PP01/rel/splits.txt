@@ -1,0 +1,13 @@
+Sections:
+	.text       type:code align:32
+	.ctors      type:rodata align:32
+	.dtors      type:rodata align:32
+	.rodata     type:rodata align:32
+	.data       type:data align:32
+	.bss        type:bss align:8
+
+global_destructor_chain.c:
+	.text       start:0x0003E6D8 end:0x0003E748
+	.dtors      start:0x00000000 end:0x00000004 rename:.dtors$10
+	.dtors      start:0x00000004 end:0x00000008 skip
+	.bss        start:0x00001550 end:0x00001554

@@ -1,0 +1,9 @@
+object: orig/R8PP01/sys/main.dol
+splits: config/R8PP01/splits.txt
+symbols: config/R8PP01/symbols.txt
+mw_comment_version: 15 # GC 3.0 linker
+modules:
+- name: relF
+  object: orig/R8PP01/files/rel/relF.bin:nlzss
+  splits: config/R8PP01/rel/splits.txt
+  symbols: config/R8PP01/rel/symbols.txt
